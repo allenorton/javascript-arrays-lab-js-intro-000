@@ -26,6 +26,6 @@ function prependKitten(name){
   return nuarray
 }
 function removeLastKitten(){
-  var nuarray = array.slice(0, array.length - 1)
+  var nuarray = kittens.slice(0, kittens.length - 1)
   return nuarray
 }
