@@ -21,3 +21,7 @@ function appendKitten(name){
   var nuarray = kittens.concat(name)
   return nuarray
 }
+function prependKitten(name){
+  var nuarray = [name].concat(kittens)
+  return nuarray
+}
