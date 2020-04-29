@@ -29,3 +29,7 @@ function removeLastKitten(){
   var nuarray = kittens.slice(0, kittens.length - 1)
   return nuarray
 }
+function removeFirstKitten(){
+  var nukittens = kittens.slice(0)
+  return nukittens
+}
