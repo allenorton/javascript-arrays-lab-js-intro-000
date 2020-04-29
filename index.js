@@ -30,6 +30,6 @@ function removeLastKitten(){
   return nuarray
 }
 function removeFirstKitten(){
-  var nukittens = kittens.slice(0)
+  var nukittens = kittens.slice(1)
   return nukittens
 }
